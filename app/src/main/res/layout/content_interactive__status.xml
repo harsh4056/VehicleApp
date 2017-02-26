@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_interactive__status"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.moon.vehicleapp.Interactive_StatusActivity"
+    tools:showIn="@layout/activity_interactive__status">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:layout_toStartOf="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Harsh Kumar Singh"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:text="9479548395"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:id="@+id/textView3"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:text="UNIT J1223"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:id="@+id/textView4"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ambulance"
+                android:id="@+id/imageView4" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        app:srcCompat="@drawable/pic"
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\android\\VehicleApp\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\custom_img.jpg",
+        "source": "E:\\android\\VehicleApp\\sample\\src\\main\\res\\drawable-hdpi\\custom_img.jpg"
+    },
+    {
+        "merged": "E:\\android\\VehicleApp\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.jpg",
+        "source": "E:\\android\\VehicleApp\\sample\\src\\main\\res\\drawable-hdpi\\ic_launcher.jpg"
+    }
+]

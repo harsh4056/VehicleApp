@@ -1,0 +1,7 @@
+#Thu Nov 24 18:07:56 IST 2016
+base.0=E\:\\android\\VehicleApp\\sample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a8504f11c7e9d7b72284b0cea10925a2e798a2bb
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\android\\VehicleApp\\sample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_be8267f2be281ccb818d28480e89e9f9de39463c\\classes.dex
+base.1=E\:\\android\\VehicleApp\\sample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_be8267f2be281ccb818d28480e89e9f9de39463c
+file.0=E\:\\android\\VehicleApp\\sample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a8504f11c7e9d7b72284b0cea10925a2e798a2bb\\classes.dex
